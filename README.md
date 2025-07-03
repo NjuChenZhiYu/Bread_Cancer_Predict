@@ -17,4 +17,20 @@ Early diagnosis of breast cancer can significantly increase survival rates. By l
 
 ---
 
+
+### Model Performance Summary
+
+The performance of various models on the evaluation dataset is summarized below:
+
+- **Logistic Regression (AUC):** 0.9737  
+- **K-Nearest Neighbors (KNN) (AUC):** 0.9649  
+- **Random Forest (AUC):** 0.9649  
+- **Support Vector Machine (SVM) (AUC):** 0.9737  
+- **Deep Neural Network (AUC):** **0.9977**  
+
+Among these, the Deep Neural Network achieved the highest AUC of **0.9977**, demonstrating superior predictive performance in this task.
+
+These results indicate that deep learning models are highly effective for this problem, significantly outperforming traditional machine learning algorithms.
+
+
 Feel free to explore the code, datasets, and detailed methodology inside this repository to learn more about breast cancer prediction and how AI can aid medical diagnosis.
